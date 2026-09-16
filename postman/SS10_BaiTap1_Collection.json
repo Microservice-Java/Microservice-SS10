@@ -1,0 +1,24 @@
+{
+  "info": {
+    "_postman_id": "ss10-baitap1-collection-id",
+    "name": "SS10 BaiTap1 - Order Service RestTemplate",
+    "description": "Postman Collection for testing SS10 BaiTap1 ProductServiceClientRT",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Product Info via Order Service",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/orders/product/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["api", "orders", "product", "1"]
+        }
+      }
+    }
+  ]
+}
