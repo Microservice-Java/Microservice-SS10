@@ -1,0 +1,52 @@
+{
+  "info": {
+    "_postman_id": "ss10-baitap2-collection-id",
+    "name": "SS10 BaiTap2 - Order Service FeignClient",
+    "description": "Postman Collection for testing SS10 BaiTap2 OpenFeign ProductClient & UserClient",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Product By ID via Feign",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8082/api/orders/products/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8082",
+          "path": ["api", "orders", "products", "1"]
+        }
+      }
+    },
+    {
+      "name": "Get All Products via Feign",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8082/api/orders/products",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8082",
+          "path": ["api", "orders", "products"]
+        }
+      }
+    },
+    {
+      "name": "Get User By ID via Feign",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8082/api/orders/users/10",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8082",
+          "path": ["api", "orders", "users", "10"]
+        }
+      }
+    }
+  ]
+}
