@@ -1,0 +1,24 @@
+{
+  "info": {
+    "_postman_id": "ss10-baitap3-collection-id",
+    "name": "SS10 BaiTap3 - Promotion Service WebFlux WebClient",
+    "description": "Postman Collection for testing SS10 BaiTap3 Reactive WebClient PromotionService",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Active Promotion Banner via WebClient",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8083/api/promotions/banner/active",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8083",
+          "path": ["api", "promotions", "banner", "active"]
+        }
+      }
+    }
+  ]
+}
